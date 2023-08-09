@@ -1,0 +1,55 @@
+/* Customize your styles here */
+
+/* Set a custom background color for the header section */
+header {
+    background-color: #2c3e50;
+}
+
+/* Customize the appearance of project cards */
+.card {
+    transition: transform 0.2s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more custom styling for other sections */
+
+/* Style the "About" section */
+#about {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* Style the "Portfolio" section */
+#portfolio {
+    padding: 4rem 0;
+}
+
+/* Style the "Contact" section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* Customize the colors of the navbar */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #2c3e50;
+}
+
+.navbar-toggler-icon {
+    color: #2c3e50;
+}
+
+/* Customize the footer */
+body {
+    background-color: #d62b2b;
+    color: #d01b1b;
+} 
